@@ -81,3 +81,58 @@ Undefined property: Config\App::$baseURL
 #23 {main}
 in SYSTEMPATH\HTTP\SiteURI.php on line 195.
  1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-30 22:08:31 --> Class "App\Controllers\PeliculaModel" not found
+in APPPATH\Controllers\Pelicula.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pelicula->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelicula))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\peliculas\\public\\index.php')
+CRITICAL - 2023-12-30 22:09:47 --> Undefined variable $nombre
+in APPPATH\Views\index.php on line 9.
+ 1 APPPATH\Views\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Pelicula.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pelicula->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelicula))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\peliculas\\public\\index.php')
+CRITICAL - 2023-12-30 22:11:09 --> Undefined variable $peliculas
+in APPPATH\Views\index.php on line 10.
+ 1 APPPATH\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peliculas', 'C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Pelicula.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pelicula->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelicula))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\peliculas\\public\\index.php')
+CRITICAL - 2023-12-30 22:11:31 --> Undefined variable $peliculas
+in APPPATH\Views\index.php on line 10.
+ 1 APPPATH\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peliculas', 'C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Pelicula.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pelicula->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelicula))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\peliculas\\public\\index.php')
+CRITICAL - 2023-12-30 22:13:13 --> Undefined variable $peliculas
+in APPPATH\Views\index.php on line 10.
+ 1 APPPATH\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peliculas', 'C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\peliculas\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Pelicula.php(18): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pelicula->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelicula))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\peliculas\\public\\index.php')
